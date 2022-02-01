@@ -1,0 +1,21 @@
+---
+title: "14 EXAMEN FINAL"
+author: "Marko Rodríguez"
+date: "31/1/2022"
+output: html_document
+---
+
+```{r}
+library(dplyr)
+library(sf)
+library(tidyverse)
+library(ggplot2)
+
+GBIF <- read_sf("F:/programacion/13 y 14/gbif_peru.csv")
+
+GBIF2 <- read_sf("F:/programacion/p_15")
+
+
+plot(st_geometry(GBIF2))
+```
+
